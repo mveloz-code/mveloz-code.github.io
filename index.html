@@ -1,0 +1,658 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <!-- META -->
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <!-- TITLE -->
+        <title>Laboratorio Bioinstrumentación </title>
+
+        <!-- Main StyleSheet -->
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="style-responsive.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+        <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="css/libs/animate.css">
+
+
+		<!-- bxSlider CSS file -->
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+
+        <!-- LayerSlider stylesheet -->
+        <link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css">
+        <!-- External libraries: jQuery & GreenSock -->
+        <script src="layerslider/js/jquery.js" type="text/javascript"></script>
+        <script src="layerslider/js/greensock.js" type="text/javascript"></script>
+        <!-- LayerSlider script files -->
+        <script src="layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+        <script src="layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+
+		<!-- bxSlider Javascript file -->
+        <script src="js/jquery.bxslider.js"></script>
+        <script>
+		$(document).ready(function(){
+		$('.bxslider').bxSlider({
+
+								pager: false,
+								controls: true,
+								auto: true
+
+
+								});
+		});
+		</script>
+
+
+
+		<link rel="stylesheet" type="text/css" href="lightbox/jquery.fancybox.css" media="screen" />
+		<script src="lightbox/jquery.fancybox.js"></script>
+        <script type="text/javascript">
+                $(document).ready(function() {
+
+                    $('.fancybox').fancybox();
+
+                });
+        </script>
+
+
+        <!-- GOTO TOP JQUERY -->
+        <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() != 0) {
+                    $('#gotop').fadeIn();
+                } else {
+                    $('#gotop').fadeOut();
+                }
+            });
+
+            $('#gotop').click(function() {
+                $('body,html').animate({scrollTop:0},800);
+            });
+        });
+        </script>
+
+
+
+		<!-- HEADER JQUERY -->
+        <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() >= 200) {
+                    $('.header').addClass("header_fix");
+                } else {
+                   $('.header').removeClass("header_fix");
+                }
+            });
+        });
+        </script>
+
+
+        <script type="text/javascript">
+
+		if($(window).width() <= 900){
+		$(document).ready(function() {
+
+
+
+                    $('.mobile .title').click(function() {
+
+												$(this).next("ul").slideToggle();
+												$(this).toggleClass("minus");
+
+												});
+
+
+
+                });
+
+		}
+        </script>
+
+</head>
+
+<body>
+
+
+
+        <div class="header">
+        <div class="container">
+
+        			<a href="#" class="logo"><img src="images/logo3.png"   alt="" /></a>
+
+                    <div class="nav mobile">
+                    <div class="title">Menu <span class="fa "></span></div>
+                    <ul>
+                    <li><a href="#faqs_part">Objetivos</a></li>
+                    <li><a href="#features">Laboratorio</a></li>
+                    <li><a href="#services">Investigación y proyectos </a></li>
+                    <li><a href="#pricing_part">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <!-- <li><a href="#subscribe_part">Sign Up</a></li> -->
+                    </ul>
+                    </div>
+
+        </div>
+        </div>
+
+
+
+
+		<div class="wrapper">
+        <div class="slider_main">
+        <div id="full-slider-wrapper">
+        <div id="layerslider" style="width:100%;height:473px;">
+
+
+                                <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
+                                <img src="images/slider/color.png" class="ls-bg" alt="Slide background"/>
+
+
+                                <div class="ls-l " style="top:20px;left:-180px;white-space: nowrap;" data-ls="offsetxin:-200;durationin:2000;offsetxout:-200;">
+                                <!--<iframe src="http://player.vimeo.com/video/34134308?portrait=0&amp;color=ff9933&autoplay=1" width="443" height="290" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                                <img src="images/logos2.png" style="height: 100%; width: 100%"  />
+                                </div>
+
+
+                                <div class="ls-l" style="top:140px;left:440px;white-space: nowrap;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <h2 class="l1">Laboratorio de investigación <br>y desarrollo de simuladores clínicos </h2>
+                                </div>
+
+                                <div class="ls-l" style="top:250px;left:480px;white-space: nowrap;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <h2 class="l2">Instituto de Ciencias Aplicadas y Tecnología</h2>
+                                </div>
+
+
+
+                                <div class="ls-l" style="top:315px;left:658px;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <a href="#features" class="button2">Saber más</a>
+                                </div>
+
+
+                                <div class="ls-l" style="top:315px;left:840px;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <a href="#contacto" class="button1">Contacto</a>
+                                </div>
+
+
+                                </div><!--FIRST SLIDE-->
+
+
+
+                                <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
+                                <img src="images/slider/color.png" class="ls-bg" alt="Slide background"/>
+
+
+                                <div class="ls-l " style="top:20px;left:-180px;white-space: nowrap;" data-ls="offsetxin:-200;durationin:2000;offsetxout:-200;">
+                                <!--<iframe src="http://player.vimeo.com/video/34134308?portrait=0&amp;color=ff9933&autoplay=1" width="443" height="290" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                                <img src="images/logos2.png" style="height: 100%; width: 100%"  />
+                                </div>
+
+
+                                <div class="ls-l" style="top:140px;left:440px;white-space: nowrap;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <h2 class="l1">Laboratorio de investigación <br>y desarrollo de simuladores clínicos </h2>
+                                </div>
+
+                                <div class="ls-l" style="top:250px;left:480px;white-space: nowrap;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <h2 class="l2">Instituto de Ciencias Aplicadas y Tecnología </h2>
+                                </div>
+
+
+
+                                <div class="ls-l" style="top:315px;left:658px;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <a href="#features" class="button2">Saber más</a>
+                                </div>
+
+
+                                <div class="ls-l" style="top:315px;left:840px;" data-ls="offsetxin:0;delayin:1000;easingin:easeInOutQuart;scalexin:0.7;scaleyin:0.7;offsetxout:-800;durationout:1000;">
+                                <a href="#contacto" class="button1">Contacto</a>
+                                </div>
+
+
+                                </div><!--FIRST SLIDE-->
+
+
+
+
+        </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="feature_section" id="features">
+        <div class="container">
+
+
+                        <div class="leftside">
+                        <img src="images/thumbs/sensores.png"  style="height: 100%; width: 100%" alt=""  class="wow bounceInLeft animated" data-wow-duration="2s" data-wow-offset="300" data-wow-delay="0.2s" />
+                        </div>
+
+
+                        <div class="rightside">
+                        <h2>Laboratorio de Bioinstrumentación</h2>
+                        <p>
+                            El objetivo del laboratorio es promover el desarrollo de nuevos modelos y metodologías enfocadas en el entrenamiento y enseñanza de procedimientos médicos, que fortalezca la capacitación del personal de los diferentes servicios del Hospital, por medio de herramientas de simulación clínica.
+                        </p>
+
+                        <!-- <div class="feature">
+                        <span class="fa fa-life-ring"></span>
+                        <div class="description">
+                        <strong>Good in Performance</strong> <br />
+                        Designing is a matter of concentration. You go deep into what you want to do. It's about intensive research, really.
+                        </div>
+                        </div>
+
+                        <br clear="all" />
+
+                        <a href="#" class="button3">Learn More</a>
+                        <a href="#" class="button4">Start Now</a>
+                        </div>			 -->
+
+        </div>
+        </div>
+
+
+
+
+
+        <div class="feature_section ano_feature_section">
+        <div class="container">
+
+
+                        <div class="leftside">
+                        <h2>Centro de Perfeccionamiento de Habilidades y Destrezas Médicas</h2>
+                        <p style="font-size: 80;">
+                            Como equipo de investigación multidisciplinaria fomentan el desarrollo de tecnología propietaria nacional, así como la investigación y evaluación de diversas técnicas de diagnóstico y tratamiento, en ambientes simulados en condiciones seguras sin riesgo para los pacientes.
+                        </p>
+
+                        <!-- <div class="feature">
+                        <span class="fa fa-life-ring"></span>
+                        <div class="description">
+                        <strong>Good in Performance</strong> <br />
+                        Designing is a matter of concentration. You go deep into what you want to do. It's about intensive research, really.
+                        </div>
+                        </div> -->
+
+                        <!-- <div class="feature">
+                        <span class="fa fa-play-circle-o "></span>
+                        <div class="description">
+                        <strong>Video Background</strong> <br />
+                        Designing is a matter of concentration. You go deep into what you want to do. It's about intensive research, really.
+                        </div>
+                        </div> -->
+
+                        </div>
+
+
+                        <div class="rightside">
+                        <img src="images/thumbs/columna.png"  style="height: 160%; width: 160%" alt="" class="wow bounceInRight animated imagethumb2" data-wow-offset="0" data-wow-delay="0.2s" />
+                        </div>
+
+        </div>
+        </div>
+
+
+        <div class="service_section" id="services">
+        <div class="container">
+
+        			<h2 style="text-align: center;">Investigación y proyectos</h2>
+                    <h4>Generar tecnología innovadora que resulte en ventajas competitivas, tales como la reducción de costos y el mejoramiento de los procesos de enseñanza; fomentar el desarrollo de tecnología nacional, así como la disminución de riesgos para los pacientes del Hospital.</h4>
+
+                    <div class="insider">
+
+                   		<div class="column">
+                        <img src="images/icons/sim.png"  style="height: 80%; width: 80%" alt=""  data-wow-offset="0" data-wow-delay="0.2s" />
+                        <h3>Simuladores computarizados</h3>
+                        <p>Maniquíes y modelos sintéticos de pacientes.</p>
+
+                        </div>
+
+                        <div class="column">
+                        <img src="images/icons/nav.png"  style="height: 80%; width: 80%" alt=""  data-wow-offset="0" data-wow-delay="0.2s" />
+                        <h3>Realidad aumentada y navegación</h3>
+                        <p>Planeación prequirúrgica, métodos de navegación intraoperatorio.</p>
+                        </div>
+
+                        <div class="column">
+                        <img src="images/icons/ia.png"  style="height: 80%; width: 80%" alt=""  data-wow-offset="0" data-wow-delay="0.2s" />
+                        <h3>Inteligencia Artificial en medicina</h3>
+                        <p>Herramientas de diagnóstico, asistencia operatoria y control postoperatorio.</p>
+                        </div>
+
+                    </div>
+
+        </div>
+        </div>
+
+
+
+
+        <div class="common_section" id="faqs_part">
+        <div class="container">
+
+        			<h2>Objetivos</h2>
+                    <!-- <h4>One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man</h4> -->
+
+
+                    <div class="faqbox">
+                    <!-- <div class="title">Are bears just about to extinct?</div> -->
+                    <p>
+Fomentar el desarrollo de actividades de investigación, docencia e innovación en métodos y tecnologías de enseñanza de habilidades y destrezas clínicas y quirúrgicas, entre alumnos de pregrado, posgrado, investigadores y docentes dentro del Hospital.                     </p>
+                    </div>
+
+                    <!-- <div class="faqbox longer">
+                    <div class="title">Will Star Wars Episode VII be awesome?</div>
+                    <p>
+Fomentar la investigación multidisciplinaria, el desarrollo y la transferencia tecnológica de productos sujetos a protección por propiedad intelectual y derechos de autor, el desarrollo de proyectos de investigación financiados y la atracción de recursos por patrocinadores.                     </p>
+                    </div> -->
+
+
+                    <div class="faqbox">
+                    <!-- <div class="title">Are bears just about to extinct?</div> -->
+                    <p>
+Es de vital importancia para el desarrollo y mejoría de la práctica clínica y quirúrgica la implementación de un laboratorio de investigación en el cual se lleven a cabo protocolos adecuadamente diseñados apegados a un programa de entrenamiento.                    </p>
+                    </div>
+
+
+                    <div class="faqbox">
+                    <!-- <div class="title">Are bears just about to extinct?</div> -->
+                    <p>
+Fomentar la investigación multidisciplinaria, el desarrollo y la transferencia tecnológica de productos sujetos a protección por propiedad intelectual y derechos de autor, el desarrollo de proyectos de investigación financiados y la atracción de recursos por patrocinadores.                     </p>
+                    </p>
+                    </div>
+
+
+                    <!-- <div class="faqbox">
+                    <div class="title">Are bears just about to extinct?</div>
+                    <p>
+                    Yes! But if you’d like to buy us a slice of cheap pizza, we’ll reward you with some cool bonus features.
+                    </p>
+                    </div>
+                     -->
+
+
+        </div>
+        </div>
+
+
+
+<!--
+        <div class="common_section" id="testimonials_part">
+        <div class="container">
+
+        			<h2>Trusted worldwide</h2>
+                    <h4 style="margin:0 0 40px 0;">One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man</h4>
+
+
+                   	<br clear="all" />
+
+                    <ul class="bxslider">
+
+                    <li>
+                    <div class="testimonial_box">
+                    <div class="quote_button"><img src="images/icons/i7.png" alt="" /></div>
+                    <div class="para">
+                    Never expected to get such a powerful-functionality theme for this little money! It is a real pleasure to work with, I think it simply guesses my thoughts! All the customization is playfully easy, reminds more of a game rather than website setup.
+                    </div>
+                    <div class="clientinfo">
+                    <img src="images/clients/c1.png" alt="" />
+                    Karen Walker
+                    </div>
+                    </div>
+                    </li>
+
+                    </ul>
+
+
+        </div>
+        </div>
+         -->
+
+
+
+
+        <div class="pricing_table_section" id="pricing_part">
+        <div class="container">
+
+        			<h2>PRODUCTOS</h2>
+                    <!-- <h4>term sheet convertible note colluding bootstrapping</h4> -->
+
+
+                   	<div class="insider">
+
+
+                    <div class="block">
+                    <div class="head">
+                    <h2>BACSIM </h2>
+                    <p> <strong>(Brain Advanced Computer Surgery Simulator)</strong></p>
+                    </div>
+                    <ul>
+                    <li><img src="images/thumbs/bacsim.png" alt="" style="height: 100%; width: 100%" alt=""  data-wow-offset="0" data-wow-delay="0.2s"  /></span></li>
+
+                    <li><h5>Simulador por realidad virtual que permite el entrenamiento de destrezas de microcirugía durante la ejecución de abordajes virtuales en neurocirugía.</h5> </li>
+                    </ul>
+                    </div>
+
+
+                    <div class="block">
+                    <div class="head">
+                    <h2>SpineNav</h2>
+                    <p><strong>(Spinal Navigation)</strong></p>
+                    </div>
+                    <ul>
+                    <li><img src="images/thumbs/simulacion.png" alt="" style="height: 100%; width: 100%" alt=""  data-wow-offset="0" data-wow-delay="0.2s"  /></span></li>
+                    <li><h5>Simulador de navegación quirúrgica por realidad aumentada, permite reproducir procedimientos de percutáneos para la colocación de guías y tornillos pediculares en la columna.</h5> </li>
+                    </ul>
+                    </div>
+
+
+
+                    <div class="block">
+                    <div class="head">
+                    <h2>Sala inmersiva por realidad virtual</h2>
+                    <p> </p>
+                    </div>
+                    <ul>
+                    <li><img src="images/thumbs/sala.png" alt="" style="height: 100%; width: 100%" alt=""  data-wow-offset="0" data-wow-delay="0.2s"  /></span></li>
+                    <li><h5>Sala piloto de visualización por realidad virtual para proveer medios colaborativos de enseñanza maestro-estudiante.</h5> </li>
+                    </ul>
+                    </div>
+
+
+                    </div>
+
+
+        </div>
+        </div>
+
+
+
+        <div class="service_section" id="contacto" style="background-color: #2596be;" id="contacto">
+        <div class="container" >
+
+        			<h2 style="text-align: center;color: aliceblue;"><b>Contáctanos</b></h2>
+                    <h4 style="color: aliceblue;">Para más información </h4>
+
+                    <div class="insider">
+
+                   		<div class="column">
+                        <span class="fa fa-mobile"></span>
+                        <h3 style="color: aliceblue;"><b>Teléfono</b></h3>
+                        <p style="color: aliceblue;">+52 55 2519 1178</p>
+
+                        </div>
+
+                        <div class="column">
+                        <span class="fa fa-comment-o"></span>
+                        <h3 style="color: aliceblue;"><b>Correo electrónico</b></h3>
+                        <p style="color: aliceblue;">miguel.padilla@icat.unam.mx</p>
+                        </div>
+
+
+
+                    </div>
+
+        </div>
+        </div>
+
+
+
+
+        <!-- <div class="common_section" id="contact_part">
+        <div class="container">
+
+        			<h2>Get in touch with us</h2>
+                    <h4>term sheet convertible note colluding bootstrapping</h4>
+
+
+                   	<br clear="all" />
+
+
+                    <form method="post" class="hpform">
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <textarea placeholder="Message"></textarea>
+                    <input type="submit" value="SEND" />
+                    </form>
+
+
+
+
+        </div>
+        </div>
+         -->
+
+
+
+        <!-- <div class="subscribe_section" id="subscribe_part">
+        <div class="container">
+
+        			<h2>Subscribe to our newsletter</h2>
+
+
+                   	<br clear="all" />
+
+
+                    <form method="post">
+                    <input type="email" placeholder="Enter your e-Mail" />
+                    <input type="submit" value="SUBSCRIBE" />
+                    </form>
+
+
+
+
+        </div>
+        </div> -->
+
+
+
+
+        <!-- <div class="common_section">
+        <div class="container">
+
+
+            		<a href="#" class="footer_logo"><img src="images/logo.png" alt="" /></a>
+
+					<div class="copyright">Copyright 2016 All Right Reserved - Landiya Theme By Contezy</a>.</div>
+
+        </div>
+        </div>
+         -->
+
+        </div><!--wrapper-->
+
+
+		<script>
+            jQuery("#layerslider").layerSlider({
+                responsive: false,
+                responsiveUnder: 1100,
+                layersContainer: 1100,
+                skin: 'fullwidth',
+                hoverPrevNext: false,
+                skinsPath: 'layerslider/skins/'
+            });
+
+
+        </script>
+
+		<script src="js/wow.js"></script>
+        <script>
+        wow = new WOW(
+          {
+            animateClass: 'animated',
+            offset:       100
+          }
+        );
+        wow.init();
+        document.getElementById('moar').onclick = function() {
+          var section = document.createElement('section');
+          section.className = 'section--purple wow fadeInDown';
+          this.parentNode.insertBefore(section, this);
+        };
+        </script>
+
+		<script type="text/javascript">
+		$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		var target = $(this.hash);
+		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		if (target.length) {
+		$('html,body').animate({
+		scrollTop: target.offset().top - 132
+		}, 2000);
+		return false;
+		}
+		}
+		});
+		});
+        </script>
+
+
+		<script type="text/javascript">
+
+
+        $(document).ready(function() {
+
+        if($(window).width() <= 1200){
+
+
+        $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+        $('html,body').animate({
+        scrollTop: target.offset().top - 132
+        }, 2000);
+        return false;
+        }
+        }
+        });
+        });
+
+
+
+        }
+
+        });
+
+
+        </script>
+
+
+
+</body>
+</html>
